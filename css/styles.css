@@ -1,0 +1,198 @@
+body {
+    display: grid;
+    grid-template-columns: 40em auto;
+    margin: 0;
+    background-color: #919095;
+    background-image: url(../assets/images/tengyart-voQDMI8XIJI-unsplash-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slide-background 20s linear infinite;
+  }
+
+  @keyframes slide-background {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  /* background-size: cover; - use when you compress background*/
+
+  #header-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  
+  header {
+    width: 500px;
+    display: flex;
+    color: #c2caff;
+    border-color: rgb(194, 202, 255, 0.9);
+    background-color: rgba(2, 121, 176, 0.7);
+    font-family: Agency FB, sans-serif;
+    border-bottom: inset;
+    border-right: inset;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 0px 0px 20px 0px;
+    box-shadow:
+    0 0 15px 3px #fff,  /* inner white */
+    0 0 140px 15px #0279B0, /* outer cyan */
+    inset 0 0 15px #fff;      /* inner white */
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 23px;
+  }
+/* IMPORTANT!!! */
+
+/* Remember to implement an alternative visual style. The holographic/glowing visuals will be OPTIONAL.
+   You must add a switch that can turn on/off holographic/glowing mode, so that if it is hard on the eyes for a user,
+   they can use the simplified visuals.
+   
+   Colors that you want to remember: 
+   
+   rgb(45, 89, 184) "OG BLUE" 
+   
+   rgba(2, 121, 176) "NEW BLUE"
+   
+   #0279B0 "CYAN GLOW"
+
+   #c2caff "OG BORDER/TEXT COLOR"
+   */
+
+
+
+  .text-body-container {
+    margin-top: 5em;
+  }
+  
+  .text-body {
+    display: flex;
+    width: 46em;
+    flex-direction: column;
+    align-items: center;
+    font-family: Agency FB, sans-serif;
+    color: #dadffc;
+    border-color: rgb(2, 121, 176, 0.0);
+    background-color: rgba(2, 121, 176, 0.7);
+    border: solid;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow:
+    0 0 30px 3px #fff,  /* inner white */
+    0 0 140px 15px #0279B0, /* outer cyan */
+    inset 0 0 30px #fff;      /* inner white */
+  }
+
+  p {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+  }
+  
+  #id_myphoto {
+    margin: 10px;
+    border: solid;
+    border-radius: 150px;
+    width: 150px;
+    height: 150px;
+  }
+  /* For icon image size, maintain a width and height of 150x150 for optimal results */
+  
+  #myname {
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 25px;
+    text-shadow: #a0adff;
+    font-weight: 500;
+  }
+  #jobtitle {
+    transform: translate(0px, -15px);
+    margin: 0;
+    text-shadow: #a0adff;
+    font-weight: lighter;
+  }
+  
+  #header-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 1em;
+    
+  }
+  
+  nav {
+    list-style: none;
+    background-color: rgba(2, 121, 176, 0.7);
+    color: #c2caff;
+    width: 150px;
+    border-color: #c2caff;
+    border-radius: 0px 0px 20px 0px;
+    box-shadow:
+    0 5px 15px 3px #fff,  /* inner white */
+    0 0 140px 15px #0279B0, /* outer cyan */
+    inset 0 0 15px #fff;      /* inner white */
+
+    /* TODO - Style nav like rest of website for glow mode. */
+  }
+
+  /* Design below to be used for simplistic/easy to read mode. 
+    border-color: #c2caff;
+    color: #c2caff;
+    background-color: rgb(45, 89, 184, 0.9);
+
+    for hover:
+    background-color: #4c6db3;
+    border: inset;
+    border-color: #c2caff;
+    color: #d8defc;
+
+    page button when on corresponding page:
+    background-color: #25407c;
+  */
+
+  .nav-button {
+    font-family: Agency FB, sans-serif;
+    font-size: 25px;
+    display: flex;
+    height: 50px;
+    border-top: 0.5px inset;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: #dadffc;
+    text-decoration: none;
+  }
+
+  .nav-button:hover {
+    border: inset;
+    border-color: #c2caff;
+    color: #d8defc;
+    box-shadow:
+    0 0 145px -2px #0279B0, /* outer cyan */
+    inset 0 0 15px #fff;      /* inner white */
+  }
+
+  #contact-me-button:hover {
+    border-radius: 0px 0px 17px 0px;
+  }
+
+  ul {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+  }
+
+
+  /* #273a62
+  /* #c2caff, #95a3fc, #ffec80, #80a8ff, #162c5c, #3284db, #eec61f, #2e2e9e - Colors that may be used */
