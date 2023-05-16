@@ -11,3 +11,30 @@ textarea {
     width: 500px;
     height: 450px;
 }
+
+label {
+    font-size: 20px;
+}
+
+#contact-me-submit {
+    background-color: rgba(0, 150, 220, 0.2);
+    color: #c2caff;
+    width: 150px;
+    height: 50px;
+    border-color: #c2caff;
+    font-family: Agency FB, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow:
+    0 5px 20px 3px #fff,  /* inner white */
+    0 0 140px 15px #0279B0, /* outer cyan */
+    inset 0 0 5px #fff;      /* inner white */
+    align-self: center;
+}
+
+#contact-me-submit:hover {
+    box-shadow:
+    0 5px 15px 3px #fff,  /* inner white */
+    0 0 140px 15px #0279B0, /* outer cyan */
+    inset 0 0 15px #fff;      /* inner white */
+}

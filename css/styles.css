@@ -68,7 +68,16 @@ body {
    #c2caff "OG BORDER/TEXT COLOR"
    */
 
-
+   .content-title {
+    margin: 0;
+    margin-top: 15px;
+    text-align: center;
+    border-bottom: solid 2px;
+    border-top: solid 2px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 400px;
+  }
 
   .text-body-container {
     margin-top: 5em;
@@ -196,3 +205,14 @@ body {
 
   /* #273a62
   /* #c2caff, #95a3fc, #ffec80, #80a8ff, #162c5c, #3284db, #eec61f, #2e2e9e - Colors that may be used */
+
+.alert-text {
+  color: #ff4c28;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 15px;
+  border: solid;
+  border-color: #ff4c28;
+  align-self: center;
+}
