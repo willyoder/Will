@@ -9,14 +9,14 @@ body {
     animation: slide-background 20s linear infinite;
   }
 
-  @keyframes slide-background {
+  /* @keyframes slide-background {
     from {
       background-position: 0 0;
     }
     to {
       background-position: 100% 0;
     }
-  }
+  } */
   /* background-size: cover; - use when you compress background*/
 
   #header-nav {
@@ -85,7 +85,8 @@ body {
   
   .text-body {
     display: flex;
-    width: 46em;
+    padding-bottom: 30px;
+    width: 49em;
     flex-direction: column;
     align-items: center;
     font-family: Agency FB, sans-serif;
@@ -105,6 +106,8 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
   
   #id_myphoto {
