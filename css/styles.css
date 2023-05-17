@@ -7,6 +7,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     animation: animatedBackground 200s infinite alternate;
+    margin-bottom: 75px;
   }
 
   @keyframes animatedBackground {
