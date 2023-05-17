@@ -220,3 +220,23 @@ body {
   border-color: #ff4c28;
   align-self: center;
 }
+
+.download-button {
+  background-color: #c2caff;
+  border-radius: 20px;
+}
+
+.content-title {
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.body {
+  margin-top: 100px; /* To prevent content from being overlapped by the sticky nav */
+}
