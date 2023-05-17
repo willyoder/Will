@@ -6,17 +6,18 @@ body {
     background-image: url(../assets/images/tengyart-voQDMI8XIJI-unsplash-min.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    animation: slide-background 20s linear infinite;
+    animation: animatedBackground 200s infinite alternate;
   }
 
-  /* @keyframes slide-background {
+  @keyframes animatedBackground {
     from {
       background-position: 0 0;
     }
     to {
       background-position: 100% 0;
     }
-  } */
+  }
+
   /* background-size: cover; - use when you compress background*/
 
   #header-nav {
@@ -86,7 +87,7 @@ body {
   .text-body {
     display: flex;
     padding-bottom: 30px;
-    width: 49em;
+    width: 52em;
     flex-direction: column;
     align-items: center;
     font-family: Agency FB, sans-serif;
